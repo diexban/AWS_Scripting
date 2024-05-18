@@ -18,6 +18,9 @@ Loaded up the saved private key on PuTTYgen so I could check the public key
 Changed to my newly created user
 *sudo su - Diego*
 
+Added Diego to sudo priviledges
+*sudo usermod -aG wheel Diego*
+
 Created a new folder in the home directory *mkdir .ssh*
 
 *ls -a* to verify folder creation
