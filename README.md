@@ -8,7 +8,6 @@ Showcase Project
 * Markdown for documentation
 * PuTTY for testing connectivity from my Windows Computer
 * Git for local and remote repository
-* Ansible
 
 ## Refereced Documentation
 *Github Documentation
