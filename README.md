@@ -7,10 +7,16 @@ Showcase Project
 * Python for Scripting
 * Markdown for documentation
 * PuTTY for testing connectivity from my Windows Computer
-* *Git for local and remote repository
+* Git for local and remote repository
+* Ansible
+
+## Refereced Documentation
+*Github Documentation
+*AWS Documentation
 
 ## Part 1
 Deployed a Amazon Linux EC2 Instance using the AWS Dashboard, making sure that is is associated to the privious key pair created. Connected using the AWS CLI
+Created a AWS Billing preference to inform me when my free tier usage is depleted
 
 Proceeded to create a new user called Diego
 *sudo adduser Diego*
@@ -48,9 +54,16 @@ git commit -m "Added Script"
 Copied this repository as a remote repository
 Installed Curl 
 sudo yum install curl
+Checked Curl version
+curl --version
 Tried to install the git credential manager via
 curl -L https://aka.ms/gcm/linux-install-source.sh | sh
 <img width="536" alt="image" src="https://github.com/diexban/AWS_Scripting_App_Project/assets/166546790/cf546bbd-c7d8-4b05-97a9-cbef6b9c310c">
+
+Installed Python
+sudo yum install Python
+
+Created a separate Ubuntu Instance to install Ansible
 
 
 
