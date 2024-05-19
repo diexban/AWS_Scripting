@@ -7,6 +7,7 @@ Showcase Project
 * Python for Scripting
 * Markdown for documentation
 * PuTTY for testing connectivity from my Windows Computer
+* *Git for local and remote repository
 
 ## Part 1
 Deployed a Amazon Linux EC2 Instance using the AWS Dashboard, making sure that is is associated to the privious key pair created. Connected using the AWS CLI
@@ -35,4 +36,15 @@ Created a new folder in the home directory *mkdir .ssh*
 *cat authorized_key* To check that the key was inserted correctly
 
 Now I can ssh from PuTTy directly into my created Diego User
+
+Installed Git on the instance
+sudo yum install git
+checked if it installed git --version
+Added create_user to git 
+git add create_user.sh
+Configured Git with my email and password
+git commit -m "Added Script"
+
+
+
 
