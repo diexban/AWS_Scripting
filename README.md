@@ -63,7 +63,9 @@ curl -L https://aka.ms/gcm/linux-install-source.sh | sh
 Installed Python
 sudo yum install Python
 
-Created a separate Ubuntu Instance to install Ansible
+Verified Python Instalation
+
+python --version
 
 
 
