@@ -45,6 +45,14 @@ git add create_user.sh
 Configured Git with my email and password
 git commit -m "Added Script"
 
+Copied this repository as a remote repository
+Installed Curl 
+sudo yum install curl
+Tried to install the git credential manager via
+curl -L https://aka.ms/gcm/linux-install-source.sh | sh
+<img width="536" alt="image" src="https://github.com/diexban/AWS_Scripting_App_Project/assets/166546790/cf546bbd-c7d8-4b05-97a9-cbef6b9c310c">
+
+
 
 
 
