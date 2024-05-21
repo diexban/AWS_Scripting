@@ -1,5 +1,5 @@
-# AWS_Scripting_App_Project
-A small project to showcase a few simple bash and pythong scripts running on a amazon linux server
+# AWS_Scripting
+A small project to showcase a few simple bash and python scripts running on a amazon linux server
 
 ## Tools Used
 * AWS for Instance Provitioning
