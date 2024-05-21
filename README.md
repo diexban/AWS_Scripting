@@ -10,8 +10,8 @@ A small project to showcase a few simple bash and python scripts running on a am
 * Git for local and remote repository
 
 ## Refereced Documentation
-*Github Documentation
-*AWS Documentation
+*Github Documentation* ref: https://docs.github.com/en
+*AWS Documentation* ref: https://docs.aws.amazon.com/
 
 ## Part 1
 Deployed a Amazon Linux EC2 Instance using the AWS Dashboard, making sure that is is associated to the privious key pair created. Connected using the AWS CLI
