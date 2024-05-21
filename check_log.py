@@ -5,7 +5,6 @@ import shutil
 import os
 
 def get_directory_size(directory):
-    """Get the size of the directory in human-readable format."""
     result = subprocess.run(['du', '-sh', directory], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
     if result.returncode != 0:
         print(f"Error: {result.stderr}")
@@ -13,7 +12,6 @@ def get_directory_size(directory):
     return result.stdout.split()[0]
 
 def convert_to_mb(size_str):
-    """Convert a human-readable size string to megabytes."""
     size_str = size_str.upper()
     if size_str.endswith('G'):
         return float(size_str[:-1]) * 1024
@@ -24,7 +22,6 @@ def convert_to_mb(size_str):
     return float(size_str)
 
 def clear_directory(directory):
-    """Clear the contents of the directory."""
     for filename in os.listdir(directory):
         file_path = os.path.join(directory, filename)
         try:
