@@ -1,5 +1,5 @@
 # AWS_Scripting_App_Project
-Showcase Project
+A small project to showcase a few simple bash and pythong scripts running on a amazon linux server
 
 ## Tools Used
 * AWS for Instance Provitioning
