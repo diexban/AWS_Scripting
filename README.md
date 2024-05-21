@@ -7,7 +7,7 @@ A small project to showcase a few simple bash and python scripts running on a am
 * Python for Scripting
 * Markdown for documentation
 * PuTTY for testing connectivity from my Windows Computer
-* Git for local and remote repository
+* Git for local
 
 ## Refereced Documentation
 *Github Documentation* ref: https://docs.github.com/en
